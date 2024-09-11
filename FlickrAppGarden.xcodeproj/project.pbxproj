@@ -22,6 +22,13 @@
 		062767C52C91D378006B896F /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 062767C42C91D378006B896F /* Post.swift */; };
 		062767C72C91D38F006B896F /* Media.swift in Sources */ = {isa = PBXBuildFile; fileRef = 062767C62C91D38F006B896F /* Media.swift */; };
 		062767C92C91D3A0006B896F /* FlickrResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 062767C82C91D3A0006B896F /* FlickrResponse.swift */; };
+		062767CE2C91D461006B896F /* PostGridItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 062767CD2C91D461006B896F /* PostGridItemView.swift */; };
+		062767D02C91D680006B896F /* ScrollablePostGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 062767CF2C91D680006B896F /* ScrollablePostGridView.swift */; };
+		062767D22C91D6A2006B896F /* GridToggleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 062767D12C91D6A2006B896F /* GridToggleButton.swift */; };
+		062767D52C91D6C2006B896F /* SearchableGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 062767D42C91D6C2006B896F /* SearchableGridView.swift */; };
+		062767D72C91D6D9006B896F /* PostDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 062767D62C91D6D9006B896F /* PostDetailsView.swift */; };
+		062767DA2C91D703006B896F /* SearchableGridViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 062767D92C91D703006B896F /* SearchableGridViewModel.swift */; };
+		062767DC2C91D71C006B896F /* PostDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 062767DB2C91D71C006B896F /* PostDetailsViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +66,13 @@
 		062767C42C91D378006B896F /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		062767C62C91D38F006B896F /* Media.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Media.swift; sourceTree = "<group>"; };
 		062767C82C91D3A0006B896F /* FlickrResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlickrResponse.swift; sourceTree = "<group>"; };
+		062767CD2C91D461006B896F /* PostGridItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostGridItemView.swift; sourceTree = "<group>"; };
+		062767CF2C91D680006B896F /* ScrollablePostGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollablePostGridView.swift; sourceTree = "<group>"; };
+		062767D12C91D6A2006B896F /* GridToggleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridToggleButton.swift; sourceTree = "<group>"; };
+		062767D42C91D6C2006B896F /* SearchableGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchableGridView.swift; sourceTree = "<group>"; };
+		062767D62C91D6D9006B896F /* PostDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostDetailsView.swift; sourceTree = "<group>"; };
+		062767D92C91D703006B896F /* SearchableGridViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchableGridViewModel.swift; sourceTree = "<group>"; };
+		062767DB2C91D71C006B896F /* PostDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostDetailsViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +124,9 @@
 		0627678B2C91D1A3006B896F /* FlickrAppGarden */ = {
 			isa = PBXGroup;
 			children = (
+				062767D82C91D6F1006B896F /* ViewModels */,
+				062767D32C91D6B6006B896F /* Views */,
+				062767CC2C91D451006B896F /* UIComponents */,
 				062767C32C91D36B006B896F /* Models */,
 				062767BC2C91D2D8006B896F /* Services */,
 				062767B92C91D247006B896F /* Extensions */,
@@ -172,6 +189,34 @@
 				062767C82C91D3A0006B896F /* FlickrResponse.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		062767CC2C91D451006B896F /* UIComponents */ = {
+			isa = PBXGroup;
+			children = (
+				062767CD2C91D461006B896F /* PostGridItemView.swift */,
+				062767CF2C91D680006B896F /* ScrollablePostGridView.swift */,
+				062767D12C91D6A2006B896F /* GridToggleButton.swift */,
+			);
+			path = UIComponents;
+			sourceTree = "<group>";
+		};
+		062767D32C91D6B6006B896F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				062767D42C91D6C2006B896F /* SearchableGridView.swift */,
+				062767D62C91D6D9006B896F /* PostDetailsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		062767D82C91D6F1006B896F /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				062767D92C91D703006B896F /* SearchableGridViewModel.swift */,
+				062767DB2C91D71C006B896F /* PostDetailsViewModel.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -310,15 +355,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				062767D52C91D6C2006B896F /* SearchableGridView.swift in Sources */,
+				062767D72C91D6D9006B896F /* PostDetailsView.swift in Sources */,
 				062767C02C91D349006B896F /* NetworkMonitorService.swift in Sources */,
+				062767CE2C91D461006B896F /* PostGridItemView.swift in Sources */,
 				062767BB2C91D289006B896F /* StringExtensions.swift in Sources */,
 				062767C92C91D3A0006B896F /* FlickrResponse.swift in Sources */,
 				062767C22C91D35B006B896F /* HTTPClient.swift in Sources */,
+				062767DA2C91D703006B896F /* SearchableGridViewModel.swift in Sources */,
+				062767D22C91D6A2006B896F /* GridToggleButton.swift in Sources */,
 				0627678F2C91D1A3006B896F /* ContentView.swift in Sources */,
 				062767BE2C91D2E8006B896F /* FlickrService.swift in Sources */,
 				062767C52C91D378006B896F /* Post.swift in Sources */,
 				062767C72C91D38F006B896F /* Media.swift in Sources */,
+				062767DC2C91D71C006B896F /* PostDetailsViewModel.swift in Sources */,
 				0627678D2C91D1A3006B896F /* FlickrAppGardenApp.swift in Sources */,
+				062767D02C91D680006B896F /* ScrollablePostGridView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
