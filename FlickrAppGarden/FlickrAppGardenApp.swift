@@ -11,7 +11,11 @@ import SwiftUI
 struct FlickrAppGardenApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            let service = FlickrService()
+            let viewModel = SearchableGridViewModel(service: service)
+            NavigationStack {
+                SearchableGridView(viewModel: viewModel)
+            }
         }
     }
 }

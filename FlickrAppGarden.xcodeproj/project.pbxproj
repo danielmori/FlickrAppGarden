@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		0627678D2C91D1A3006B896F /* FlickrAppGardenApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0627678C2C91D1A3006B896F /* FlickrAppGardenApp.swift */; };
-		0627678F2C91D1A3006B896F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0627678E2C91D1A3006B896F /* ContentView.swift */; };
 		062767912C91D1A4006B896F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 062767902C91D1A4006B896F /* Assets.xcassets */; };
 		062767942C91D1A4006B896F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 062767932C91D1A4006B896F /* Preview Assets.xcassets */; };
 		0627679E2C91D1A5006B896F /* FlickrAppGardenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0627679D2C91D1A5006B896F /* FlickrAppGardenTests.swift */; };
@@ -51,7 +50,6 @@
 /* Begin PBXFileReference section */
 		062767892C91D1A3006B896F /* FlickrAppGarden.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlickrAppGarden.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0627678C2C91D1A3006B896F /* FlickrAppGardenApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlickrAppGardenApp.swift; sourceTree = "<group>"; };
-		0627678E2C91D1A3006B896F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		062767902C91D1A4006B896F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		062767932C91D1A4006B896F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		062767992C91D1A5006B896F /* FlickrAppGardenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlickrAppGardenTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -131,7 +129,6 @@
 				062767BC2C91D2D8006B896F /* Services */,
 				062767B92C91D247006B896F /* Extensions */,
 				0627678C2C91D1A3006B896F /* FlickrAppGardenApp.swift */,
-				0627678E2C91D1A3006B896F /* ContentView.swift */,
 				062767902C91D1A4006B896F /* Assets.xcassets */,
 				062767922C91D1A4006B896F /* Preview Content */,
 			);
@@ -364,7 +361,6 @@
 				062767C22C91D35B006B896F /* HTTPClient.swift in Sources */,
 				062767DA2C91D703006B896F /* SearchableGridViewModel.swift in Sources */,
 				062767D22C91D6A2006B896F /* GridToggleButton.swift in Sources */,
-				0627678F2C91D1A3006B896F /* ContentView.swift in Sources */,
 				062767BE2C91D2E8006B896F /* FlickrService.swift in Sources */,
 				062767C52C91D378006B896F /* Post.swift in Sources */,
 				062767C72C91D38F006B896F /* Media.swift in Sources */,
