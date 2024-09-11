@@ -1,0 +1,15 @@
+{
+  "originHash" : "7e69f2684ced70eab9d84aff9124eb0f1b205169e51453962db5cf0734153109",
+  "pins" : [
+    {
+      "identity" : "dmcachedimage",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/danmori/DMCachedImage",
+      "state" : {
+        "branch" : "main",
+        "revision" : "4bbaa6006793cf6b692d2cf0a64b90a6362742d4"
+      }
+    }
+  ],
+  "version" : 3
+}
