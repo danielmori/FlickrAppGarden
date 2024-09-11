@@ -15,6 +15,7 @@
 		062767A82C91D1A5006B896F /* FlickrAppGardenUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 062767A72C91D1A5006B896F /* FlickrAppGardenUITests.swift */; };
 		062767AA2C91D1A5006B896F /* FlickrAppGardenUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 062767A92C91D1A5006B896F /* FlickrAppGardenUITestsLaunchTests.swift */; };
 		062767B82C91D233006B896F /* DMCachedImage in Frameworks */ = {isa = PBXBuildFile; productRef = 062767B72C91D233006B896F /* DMCachedImage */; };
+		062767BB2C91D289006B896F /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 062767BA2C91D289006B896F /* StringExtensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		062767A32C91D1A5006B896F /* FlickrAppGardenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlickrAppGardenUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		062767A72C91D1A5006B896F /* FlickrAppGardenUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlickrAppGardenUITests.swift; sourceTree = "<group>"; };
 		062767A92C91D1A5006B896F /* FlickrAppGardenUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlickrAppGardenUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		062767BA2C91D289006B896F /* StringExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +135,7 @@
 		062767B92C91D247006B896F /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				062767BA2C91D289006B896F /* StringExtensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -273,6 +276,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				062767BB2C91D289006B896F /* StringExtensions.swift in Sources */,
 				0627678F2C91D1A3006B896F /* ContentView.swift in Sources */,
 				0627678D2C91D1A3006B896F /* FlickrAppGardenApp.swift in Sources */,
 			);
